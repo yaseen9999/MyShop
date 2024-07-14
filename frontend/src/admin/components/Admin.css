@@ -1,0 +1,23 @@
+.admin-container {
+    padding: 20px;
+    /* Ensure container can scroll if contents overflow */
+  
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr ; /* One column */
+   
+    gap: 490px; 
+     /* Adjust the gap as needed */
+  }
+  
+  .grid-item {
+    background-color: #f1f1f1; /* Optional: add background color */
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional: add border */
+    border-radius: 4px; 
+    
+  }
+  
+ 
